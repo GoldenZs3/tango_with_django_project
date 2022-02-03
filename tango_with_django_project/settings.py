@@ -19,6 +19,7 @@ STATIC_DIR=os.path.join(BASE_DIR, 'static')
 MEDIA_DIR=os.path.join(BASE_DIR, 'media')
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -128,6 +129,3 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 #Media files
 MEDIA_URL='/media/'
 MEDIA_ROOT=MEDIA_DIR
-
-#Redirect link for not logged in users
-LOGIN_URL= 'rango:login'
